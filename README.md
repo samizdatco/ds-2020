@@ -326,16 +326,16 @@ The Making Center is a constellation of shops, labs, and open workspaces that ar
 
 ### Grading Standards
 
-**A** Work of exceptional quality
-**A-** Work of high quality
-**B+** Very good work
-**B** Good work; satisfies course requirements
-Satisfactory completion of a course is considered to be a grade of B or higher.
-**B-** Below-average work
-**C+** Less than adequate work
-**C** Well below average work
-**C-** Poor work; lowest possible passing grade
-**F** Failure
+**A** Work of exceptional quality  
+**A-** Work of high quality  
+**B+** Very good work  
+**B** Good work; satisfies course requirements.  
+*Satisfactory completion of a course is considered to be a grade of B or higher.*  
+**B-** Below-average work  
+**C+** Less than adequate work  
+**C** Well below average work  
+**C-** Poor work; lowest possible passing grade  
+**F** Failure  
 **GM** Grade missing for an individual
 
 *Grades of **D** are not used in graduate level courses.*
