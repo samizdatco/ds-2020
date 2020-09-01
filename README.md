@@ -39,7 +39,6 @@ Week 10 & 11 | Interface design; serverless computing
 Weeks 12–14 | Reliability, scalability, maintainability, sustainability; Labs
 Week 15 | Final presentations (video) and reflections (Canvas)
 
-### Required Reading
 ## Course Outline
 
 ### September 2 (Week 1)
@@ -174,8 +173,6 @@ Sensors. Data gathering and surveillance.
 
 ### October 28 (Week 9)
 
-[slides]
-
 IoT.
 
 #### Weekly Assignment 9, due Tuesday 11/3 at 6:00pm
@@ -199,7 +196,7 @@ From database to visual representation.  Interface design.
 
 #### Read for next week:
 
-* [REDESIGNING DESIGN / JOS DE MUL](http://opendesignnow.org/index.html%3Fp=401.html)
+* [Redesigning Design](http://opendesignnow.org/index.html%3Fp=401.html), Jos de Mul
 
 ### November 11 (Week 11)
 
@@ -214,7 +211,7 @@ Serverless computing.
 
 #### Read for next week:
 
-* Klepmann, Chapter 1. Read from the beginning through the “Reliability Section.”
+* Klepmann, Chapter 1. Read from the beginning through the “Reliability” section.
 * [How the internet works](https://edri.org/wp-content/uploads/2013/10/paper03_web_20120123.pdf)
 
 ### November 18 (Week 12)
@@ -228,9 +225,9 @@ Discussion: Reliability. Lab.
 
 #### Read for next week:
 
-* Klepmann, Chapter 1. Read the “Scalability Section.”
-* [MapReduce: Simplified Data Processing on Large Clusters, Jeffrey Dean and Sanjay Ghemawat](https://research.google.com/archive/mapreduce.html)
-* [immens paper](http://vis.stanford.edu/papers/immens)
+* Klepmann, Chapter 1. Read the “Scalability” section.
+* [MapReduce: Simplified Data Processing on Large Clusters](https://research.google.com/archive/mapreduce.html), Jeffrey Dean and Sanjay Ghemawat
+* [imMens paper](http://vis.stanford.edu/papers/immens)
 
 -----
 
@@ -244,7 +241,7 @@ Discussion: Scalability. When do you need a database(s)? When do you not? Lab.
 
 #### Read for next week:
 
-* Klepmann, Chapter 1. Read the “Maintainability Section” and through the end of the chapter.
+* Klepmann, Chapter 1. Read the “Maintainability” section and through the end of the chapter.
 * Gitelman, Chapter 8
 * [What is code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 
