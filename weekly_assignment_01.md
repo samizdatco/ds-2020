@@ -43,7 +43,7 @@ Next, create a file called `fetch.js` file with the contents:
 var get = require('simple-get');
 var fs = require('fs');
 
-get.concat('https://parsons.nyc/thesis-2019/', function(error, response, body){
+get.concat('https://parsons.nyc/thesis-2020/', function(error, response, body){
     if (!error && response.statusCode == 200) {
         fs.writeFileSync(`${__dirname}/data/thesis.txt`, body);
     }else{
