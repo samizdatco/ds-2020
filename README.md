@@ -26,7 +26,8 @@ online course | Zoom info in Canvas
 
 
 
-## Course Overview
+## Course Outline
+
 
 Duration | Description
 --- | -------
@@ -39,8 +40,6 @@ Week 10 & 11 | Interface design; serverless computing
 Weeks 12–14 | Reliability, scalability, maintainability, sustainability; Labs
 Week 15 | Final presentations (video) and reflections (Canvas)
 
-## Course Outline
-
 ### September 2 (Week 1)
 
 Introduction to data structures.
@@ -49,8 +48,8 @@ Introduction to data structures.
 > You will “get” some HTML files, save them, and study their structure.
 >
 > * [What is `npm`?](https://docs.npmjs.com/getting-started/what-is-npm)
-> * [Node simple-get module](https://www.npmjs.com/package/simple-get)
-> * [Node fs module](https://nodejs.org/api/fs.html)
+> * [npm `request` module](https://www.npmjs.com/package/request)
+> * [Node `fs` module](https://nodejs.org/api/fs.html)
 > * [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 #### Read for next week:
@@ -85,7 +84,9 @@ Fundamental data structures. Data augmentation and integration. GitHub for open 
 >
 > * [TAMU GeoServices](http://geoservices.tamu.edu/)
 > * [TAMU GeoServices Geocoding APIS](http://geoservices.tamu.edu/Services/Geocode/WebService/)
-> * [Node Async module](http://caolan.github.io/async/)
+> * [Node `querystring` module](https://nodejs.org/api/querystring.html)
+> * [npm `async` module](http://caolan.github.io/async/)  
+> * [npm `dotenv` module](https://www.npmjs.com/package/dotenv)
 > * [Tutorial: creating and using environment variables in Linux](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps).
 
 #### Read for next week:

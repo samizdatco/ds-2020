@@ -31,19 +31,19 @@ https://parsons.nyc/aa/m10.html
 
 ## Starter code
 
-Start by installing the `simple-get` npm module (for making HTTP requests) and creating a `data` subdirectory to save your output into:
+Start by installing the `request` npm module (for making HTTP requests) and creating a `data` subdirectory to save your output into:
 ```console
-npm install simple-get
+npm install request
 mkdir data
 ```
 
 Next, create a file called `fetch.js` file with the contents:
 ```javascript
 "use strict"
-var get = require('simple-get');
+var request = require('request');
 var fs = require('fs');
 
-get.concat('https://parsons.nyc/thesis-2020/', function(error, response, body){
+request('https://parsons.nyc/thesis-2020/', function(error, response, body){
     if (!error && response.statusCode == 200) {
         fs.writeFileSync(`${__dirname}/data/thesis.txt`, body);
     }else{
@@ -60,8 +60,8 @@ node fetch.js
 #### Documentation:
 
 * [What is `npm`?](https://docs.npmjs.com/getting-started/what-is-npm)
-* [Node simple-get module](https://www.npmjs.com/package/simple-get)
-* [Node fs module](https://nodejs.org/api/fs.html)
+* [npm `request` module](https://www.npmjs.com/package/request)
+* [Node `fs` module](https://nodejs.org/api/fs.html)
 * [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 * [Node’s `__dirname` global](https://nodejs.org/docs/latest/api/modules.html#modules_dirname)
 
