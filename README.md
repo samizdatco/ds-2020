@@ -7,7 +7,7 @@ Master of Science, Data Visualization**
 ### PGDV 5110 Syllabus, Fall 2020
 
 Wednesdays, 7:00pm - 9:40pm
-online course | Zoom info in Canvas
+online course | Zoom info in [Canvas](https://canvas.newschool.edu/courses/1525010)
 
 **Faculty:** [Christian Swinehart](https://samizdat.co/)
 
