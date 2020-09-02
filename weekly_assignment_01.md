@@ -63,6 +63,7 @@ node fetch.js
 * [Node simple-get module](https://www.npmjs.com/package/simple-get)
 * [Node fs module](https://nodejs.org/api/fs.html)
 * [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+* [Node’s `__dirname` global](https://nodejs.org/docs/latest/api/modules.html#modules_dirname)
 
 ## Map of AA zones
 
