@@ -20,12 +20,13 @@ Curating raw data presents issues of technology, speed, and efficiency, as well 
 **Prerequisites**  
 Basic knowledge of JavaScript, HTML/CSS, Linux command line, Git, and [GitHub](https://lab.github.com/githubtraining/introduction-to-github).
 
-**Required reading**
-* [The Stuff of Bits : An Essay on the Materialities of Information](https://www.amazon.com/Stuff-Bits-Essay-Materialities-Information/dp/0262036207/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=), Paul Dourish. This book is available electronically through course reserves.
-* [“Raw Data” Is an Oxymoron](http://a.co/6bZnQzs), Lisa Gitelman, 2013. This book is available electronically through course reserves.
+**Required reading**  
+Unless otherwise noted, all books are available electronically through [Course Reserves](https://canvas.newschool.edu/courses/1525010/external_tools/53571).
+* [The Stuff of Bits : An Essay on the Materialities of Information](https://www.amazon.com/Stuff-Bits-Essay-Materialities-Information/dp/0262036207/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=), Paul Dourish.
+* [“Raw Data” Is an Oxymoron](http://a.co/6bZnQzs), Lisa Gitelman, 2013. 
 * [NoSQL and SQL Data Modeling: Bringing Together Data, Semantics, and Software](http://a.co/6v7bJVs), Ted Hills, 2016. This book is not available through course reserves and should be purchased (≈$27 on Amazon).
-* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](http://a.co/dbjbtnU), Martin Kleppmann, 2017. This book is available electronically through course reserves.
-* [Database Aesthetics : Art in the Age of Information Overflow](https://www.amazon.com/Database-Aesthetics-Information-Electronic-Mediations-dp-0816641196/dp/0816641196/ref=mt_other?_encoding=UTF8&me=&qid=1598487601), Victoria Vesna. This book is available electronically through course reserves.
+* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](http://a.co/dbjbtnU), Martin Kleppmann, 2017. 
+* [Database Aesthetics : Art in the Age of Information Overflow](https://www.amazon.com/Database-Aesthetics-Information-Electronic-Mediations-dp-0816641196/dp/0816641196/ref=mt_other?_encoding=UTF8&me=&qid=1598487601), Victoria Vesna. 
 
 **Screencasts & demos**  
 Videos introducing each of the assignments can be found in the course’s [Canvas ‘Pages’](https://canvas.newschool.edu/courses/1525010/pages)
