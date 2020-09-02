@@ -27,7 +27,7 @@ https://parsons.nyc/aa/m10.html
 
 3. Study the HTML structure and tags and begin to think about how you might parse these files to extract relevant data for these AA meetings.
 
-4. Update your GitHub repository with the relevant files: your `js` file and ten `txt` files, plus a `md` file with your documentation. In Canvas, submit the URL of the specific location of this work within your `data-structures` GitHub repository.
+4. Update your GitHub repository with the relevant files: your `js` file, the `data` directory with its ten `txt` files, plus a `README.md` file with your documentation. Place all of these in a subdirectory called `week_01`. In Canvas, [submit the URL](https://canvas.newschool.edu/courses/1525010/assignments/8317111) of the specific location of this work within your `data-structures` GitHub repository.
 
 ## Starter code
 
