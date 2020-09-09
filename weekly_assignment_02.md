@@ -1,6 +1,6 @@
 # Weekly Assignment 2
 
-### Due Monday 9/15 at 6:00pm
+### Due Tuesday 9/15 at 6:00pm
 
 We will continue to work with the files you collected in Weekly Assignment 1. For this week, you will work with only one of the files; it will be determined by the last number of your New School ID. The last number of your ID corresponds with the AA Manhattan "zone" you are assigned. For example, if your ID is `N01234567`, work with the Zone **7** file. If it is `N09876543`, work with the Zone **3** file. If the last number of your New School ID ends with a `0`, work with the Zone **10** file. (At the bottom of this markdown file, there's an image showing the map of the zones in Manhattan.)
 
