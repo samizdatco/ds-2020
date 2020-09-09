@@ -68,11 +68,12 @@ Introduction to data structures.
 
 The web as a database. “Raw data.”
 
-#### Weekly Assignment 2, due Tuesday 9/15 at 6:00pm
+#### [Weekly Assignment 2](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_02.md), due Tuesday 9/15 at 6:00pm
 > You will parse one of the HTML files you saved last week and log essential data to the console.
 >
 > * [Node cheerio module](https://www.npmjs.com/package/cheerio)
 > * [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+> * [JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 #### Read for next week:
 
