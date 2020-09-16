@@ -86,7 +86,7 @@ The web as a database. “Raw data.”
 
 Fundamental data structures. Data augmentation and integration. GitHub for open source collaboration.
 
-#### Weekly Assignment 3, due Tuesday 9/22 at 6:00pm
+#### [Weekly Assignment 3](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_03.md), due Tuesday 9/22 at 6:00pm
 > Using data you parsed last week, you will interface with TAMU GeoServices to augment the data you collected.
 >
 > * [TAMU GeoServices](http://geoservices.tamu.edu/)
