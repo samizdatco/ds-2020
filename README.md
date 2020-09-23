@@ -106,9 +106,9 @@ Fundamental data structures. Data augmentation and integration. GitHub for open 
 
 Data models I: SQL database.
 
-**Final Assignment 1 distributed:** Map of AA meetings in Manhattan.
+**[Final Assignment 1](https://github.com/samizdatco/ds-2020/blob/master/final_assignment_1.md) distributed:** Map of AA meetings in Manhattan.
 
-#### Weekly Assignment 4, due Tuesday 9/29 at 6:00pm
+#### [Weekly Assignment 4](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_04.md), due Tuesday 9/29 at 6:00pm
 > You will design a schema, create a new managed PostgreSQL database, and write SQL code to populate your database with your AA data.
 >
 > * [SQL tutorial](https://www.linkedin.com/learning/sql-essential-training-2)
