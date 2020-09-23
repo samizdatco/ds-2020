@@ -42,7 +42,7 @@ Here are the steps to set this up:
 > ```
 4. **IMPORTANT: your `.env` file should NEVER, EVER end up on GitHub.** One way to manage this is by [creating a local `.gitignore` file](https://help.github.com/en/articles/ignoring-files). Your `.env` file will eventually contain all your API Keys, which should be treated as carefully as you treat passwords, credit card numbers, and family secrets. Guard it with your life. 
 
-To access, these variables, you will use `process.env` to access the environment variables created by the `dotenv` package, as demonstrated in the starter code: 
+To access these variables, you will use the [`process.env`](https://nodejs.org/api/process.html#process_process_env) global variable to read from the environment variables created by the `dotenv` package, as demonstrated in the starter code: 
 
 ### Install dependencies
 ```console
