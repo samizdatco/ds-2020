@@ -58,7 +58,6 @@ Modify the following starter code to replace the database credentials with your 
 const {Client} = require('pg'),
       dotenv = require('dotenv');
 
-
 // AWS RDS POSTGRESQL INSTANCE
 dotenv.config(); 
 let db_credentials = {
