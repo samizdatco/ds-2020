@@ -56,9 +56,12 @@ Modify the following starter code to replace the database credentials with your 
 **`wa04-a-init.js`** 
 
 ```javascript
-const {Client} = require('pg');
+const {Client} = require('pg'),
+      dotenv = require('dotenv');
+
 
 // AWS RDS POSTGRESQL INSTANCE
+dotenv.config(); 
 let db_credentials = {
     host: 'dsdemo.c2g7qw1juwkg.us-east-1.rds.amazonaws.com',
     database: 'mydb',
@@ -99,8 +102,10 @@ The following starter code loops over a list of three addresses and creates a [p
 
 ```javascript
 const {Client} = require('pg'),
+      dotenv = require('dotenv'),
       async = require('async');
 
+dotenv.config(); 
 let db_credentials = {
     host: 'dsdemo.c2g7qw1juwkg.us-east-1.rds.amazonaws.com',
     database: 'mydb',
@@ -143,8 +148,10 @@ To see what's in your new database table, let's query all of its contents:
 **`wa04-c-report.js`** 
 
 ```javascript
-const {Client} = require('pg');
+const {Client} = require('pg'),
+      dotenv = require('dotenv');
 
+dotenv.config(); 
 let db_credentials = {
     host: 'dsdemo.c2g7qw1juwkg.us-east-1.rds.amazonaws.com',
     database: 'mydb',
