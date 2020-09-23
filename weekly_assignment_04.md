@@ -63,7 +63,7 @@ let db_credentials = {
     host: 'dsdemo.c2g7qw1juwkg.us-east-1.rds.amazonaws.com',
     database: 'mydb',
     user: 'aaron',
-    password: 'process.env.AWSRDS_PW',
+    password: process.env.AWSRDS_PW,
     port: 5432,
 }
 
@@ -149,7 +149,7 @@ let db_credentials = {
     host: 'dsdemo.c2g7qw1juwkg.us-east-1.rds.amazonaws.com',
     database: 'mydb',
     user: 'aaron',
-    password: 'process.env.AWSRDS_PW',
+    password: process.env.AWSRDS_PW,
     port: 5432,
 }
 
