@@ -125,7 +125,7 @@ Data models I: SQL database.
 
 Data models I: NoSQL database.
 
-#### Weekly Assignment 5, due Tuesday 10/6 at 9:00am
+#### [Weekly Assignment 5](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_05.md), due Tuesday 10/6 at 6:00pm
 > You will design a (non)schema, create a new managed DynamoDB database, and write code to populate your database with your “Process Blog” data.
 
 #### Final Assignment 2 distributed
