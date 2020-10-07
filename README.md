@@ -141,7 +141,7 @@ Data models I: NoSQL database.
 
 The Query. Indexes, joins, query optimization, and data restructuring. The E-R model. Data provision.
 
-#### Weekly Assignment 6, due Tuesday 10/13 at 6:00pm
+#### [Weekly Assignment 6](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_06.md), due Tuesday 10/13 at 6:00pm
 > You will write queries for both the SQL and NoSQL databases you have created, filtering, aggregating, and/or restructuring the data in the process.
 
 #### Read for next week:
