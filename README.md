@@ -155,7 +155,7 @@ Data cleaning. Logging issues.
 
 Data cleaning workshop.
 
-#### Weekly Assignment 7, due Tuesday 10/20 at 6:00pm
+#### [Weekly Assignment 7](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_07.md), due Tuesday 10/20 at 6:00pm
 > Finish parsing and cleaning the rest of the AA data in all ten Manhattan ‘zones’, and update/replace the data in your Postgres table(s).
 >
 > * [GitHub issues](https://guides.github.com/features/issues/)
