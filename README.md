@@ -164,6 +164,10 @@ Data cleaning workshop.
 
 * Gitelman, Chapter 7
 
+#### Order supplies for next week:
+
+* [Physical computing needs](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_08/supplies.md)
+
 ### October 21 (Week 8)
 
 Sensors. Data gathering and surveillance.
