@@ -172,7 +172,7 @@ Data cleaning workshop.
 
 Sensors. Data gathering and surveillance.
 
-#### Weekly Assignment 8, due Tuesday 10/27 at 6:00pm
+#### [Weekly Assignment 8](https://github.com/samizdatco/ds-2020/tree/master/weekly_assignment_08), due Tuesday 10/27 at 6:00pm
 > Switching gears from previous assignments, you will use an IoT development board and sensors to collect and log data to your local computer. You will also sketch your first iteration of the design of an interactive visualization of the data you will collect from the sensor.
 >
 > * Particle documentation [ [Photon](https://docs.particle.io/guide/getting-started/intro/photon/) | [Electron](https://docs.particle.io/guide/getting-started/intro/electron/) ]
