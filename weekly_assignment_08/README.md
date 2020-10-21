@@ -11,7 +11,7 @@ Switching gears from previous assignments, we will be working with temperature/h
 5. Familiarize yourself with [Particle Variables](https://docs.particle.io/reference/device-os/firmware/photon/#particle-variable-).  
 6. Set up your sensor. It should look like this: 
 
-![](https://github.com/samizdatco/ds-2020/raw/master/weekly_assignment_08/setup.jpg)
+![](https://github.com/samizdatco/ds-2020/raw/master/assets/setup.jpg)
 
 # Assignment
 
