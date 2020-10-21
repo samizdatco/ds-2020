@@ -183,6 +183,11 @@ Sensors. Data gathering and surveillance.
 * Klepman, Chapter 2
 * Dourish, Chapter 6
 
+#### Look over the schedule of the [IEEE Vis conference](http://ieeevis.org/year/2020/welcome) which runs from Oct 25–30th:
+- For next week, select a [paper](https://virtual.ieeevis.org/papers.html?filter=titles) and watch its [corresponding talk](https://virtual.ieeevis.org/calendar.html)
+- On Nov 4th you will submit a written summary of the paper 
+- Over the following weeks we’ll take turns presenting them to the class
+
 ### October 28 (Week 9)
 
 IoT.
