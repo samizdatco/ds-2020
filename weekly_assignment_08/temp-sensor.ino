@@ -1,52 +1,43 @@
 // DHT Temperature & Humidity Sensor
-// Unified Sensor Library Example
-// Written by Tony DiCola for Adafruit Industries
+// Adapted from the Unified Sensor Library Example by Tony DiCola for Adafruit Industries
 // Released under an MIT license.
 
 // REQUIRES the following Arduino libraries:
 // - DHT Sensor Library: https://github.com/adafruit/DHT-sensor-library
 // - Adafruit Unified Sensor Lib: https://github.com/adafruit/Adafruit_Sensor
 
+// See guide for details on sensor wiring and usage:
+//   https://learn.adafruit.com/dht/overview
+
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
 
-#define DHTPIN 2     // Digital pin connected to the DHT sensor
-// Feather HUZZAH ESP8266 note: use pins 3, 4, 5, 12, 13 or 14 --
-// Pin 15 can work but DHT must be disconnected during program upload.
-
-// Uncomment the type of sensor in use:
-//#define DHTTYPE    DHT11     // DHT 11
-#define DHTTYPE    DHT22     // DHT 22 (AM2302)
-//#define DHTTYPE    DHT21     // DHT 21 (AM2301)
-
-// See guide for details on sensor wiring and usage:
-//   https://learn.adafruit.com/dht/overview
-
 // Create the DHT22 temperature sensor object
+#define DHTPIN 2 // Digital pin number connected to the DHT sensor
+#define DHTTYPE DHT22 // The sensor model (might also be DHT11 or DHT21)
 DHT_Unified dht(DHTPIN, DHTTYPE);
 
 // Define a global variable to store temperature readings
 double temperature;
 
-void setup()
-{
-  // Initialize device.
+void setup(){
+  // initialize hardware (and give it a minute to power up)
   dht.begin();
-
-  // sensor takes 250 ms to get first readings
   delay(500);
 
   // bind the temperature global to a Particle variable
   Particle.variable("tempsensor", &temperature, DOUBLE);
 }
 
-void loop()
-{
-  // Read the temp in C and convert to F
+void loop(){
+  // local variable for reading from the sensor
   sensors_event_t event;
+
+  // get the next temperature measurement
   dht.temperature().getEvent(&event);
   if (!isnan(event.temperature)) {
+    // convert from celsius to fahrenheit
     double c = event.temperature;
     double f = (c * 9 / 5) + 32;
 
@@ -54,6 +45,7 @@ void loop()
     temperature = f;
   }
 
+  // get the next humidity measurement
   dht.humidity().getEvent(&event);
   if (!isnan(event.relative_humidity)) {
     // optionally do something with event.relative_humidity...
