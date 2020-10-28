@@ -195,7 +195,7 @@ IoT.
 #### Weekly Assignment 9, due Tuesday 11/3 at 6:00pm
 > You will begin writing sensor data to a database.
 
-#### Final Assignment 3 distributed
+#### [Final Assignment 3](https://github.com/samizdatco/ds-2020/blob/master/final_assignment_3.md) distributed
 > Surveilling your life.
 
 Debate: SQL vs. NoSQL
