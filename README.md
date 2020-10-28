@@ -192,8 +192,14 @@ Sensors. Data gathering and surveillance.
 
 IoT.
 
+#### Weekly Assignment: Catch up
+
+> Spend the week ensuring that all of your AA data is in your SQL database, your NoSQL diary is functioning properly, and your sensor hardware is providing valid data at its API endpoint
+
+<!-- 
 #### Weekly Assignment 9, due Tuesday 11/3 at 6:00pm
 > You will begin writing sensor data to a database.
+-->
 
 #### [Final Assignment 3](https://github.com/samizdatco/ds-2020/blob/master/final_assignment_3.md) distributed
 > Surveilling your life.
@@ -203,6 +209,10 @@ Debate: SQL vs. NoSQL
 #### Read for next week:
 
 * Gitelman, Chapter 1
+
+#### Write for next week:
+
+* A one-page summary of the IEEE conference paper whose talk you watched. Save your write-up to a file called `README.md` in a folder called `ieee-vis`. Be sure to include 3 or more images from the paper or the presentation slides to illustrate the points made in your summary
 
 ### November 4 (Week 10)
 
