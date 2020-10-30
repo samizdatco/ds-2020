@@ -1,6 +1,6 @@
 # Weekly Assignment 8
 
-Switching gears from previous assignments, we will be working with temperature/humidity [**sensors**](https://www.adafruit.com/product/385). 
+Switching gears from previous assignments, we will be working with temperature/humidity [**sensors**](https://learn.adafruit.com/products/385/guides). 
 
 # Setup
 
@@ -13,7 +13,7 @@ Switching gears from previous assignments, we will be working with temperature/h
 
 ![](https://github.com/samizdatco/ds-2020/raw/master/assets/setup.jpg)
 
-Here’s a diagram of this setup, but with a **different microcontroller**. Note the pin *labels* rather than their positions and connect everything accordingly: 
+Here’s a diagram of this setup, but with a **different microcontroller**. Note the pin *labels* rather than their positions and connect everything accordingly (and make sure you use data pin **D2** rather than 6 as is depicted here): 
 
 ![](https://github.com/samizdatco/ds-2020/raw/master/assets/setup-diagram.png)
 
