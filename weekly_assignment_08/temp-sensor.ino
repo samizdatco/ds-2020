@@ -1,56 +1,74 @@
-// DHT Temperature & Humidity Sensor
-// Adapted from the Unified Sensor Library Example by Tony DiCola for Adafruit Industries
-// Released under an MIT license.
+// This #include statement was automatically added by the Particle IDE.
+#include "Adafruit_DHT_Particle.h"
 
-// REQUIRES the following Arduino libraries:
-// - DHT Sensor Library: https://github.com/adafruit/DHT-sensor-library
-// - Adafruit Unified Sensor Lib: https://github.com/adafruit/Adafruit_Sensor
+// Example testing sketch for various DHT humidity/temperature sensors
+// Written by ladyada, public domain
 
-// See guide for details on sensor wiring and usage:
-//   https://learn.adafruit.com/dht/overview
+#define DHTPIN D2     // what pin we're connected to
+#define DHTTYPE DHT22 // the sensor model ID: DHT 22 (AM2302)
 
-#include <Adafruit_Sensor.h>
-#include <DHT.h>
-#include <DHT_U.h>
+// Connect pin 1 (on the left) of the sensor to +5V
+// Connect pin 2 of the sensor to whatever your DHTPIN is
+// Connect pin 4 (on the right) of the sensor to GROUND
+// Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the sensor
 
-// Create the DHT22 temperature sensor object
-#define DHTPIN 2 // Digital pin number connected to the DHT sensor
-#define DHTTYPE DHT22 // The sensor model (might also be DHT11 or DHT21)
-DHT_Unified dht(DHTPIN, DHTTYPE);
+double tempF = 0;
 
-// Define a global variable to store temperature readings
-double temperature;
+DHT dht(DHTPIN, DHTTYPE);
 
-void setup(){
-  // initialize hardware (and give it a minute to power up)
+void setup() {
+  Serial.begin(9600);
+  Serial.println("DHT22 initialized");
+
+  Particle.publish("state", "DHT22 initialized");
+  Particle.variable("temp", tempF);
+
   dht.begin();
-  delay(500);
-
-  // bind the temperature global to a Particle variable
-  Particle.variable("tempsensor", &temperature, DOUBLE);
+  delay(2000);
 }
 
-void loop(){
-  // local variable for reading from the sensor
-  sensors_event_t event;
+void loop() {
+  // Wait a couple seconds between measurements.
+  delay(2000);
 
-  // get the next temperature measurement
-  dht.temperature().getEvent(&event);
-  if (!isnan(event.temperature)) {
-    // convert from celsius to fahrenheit
-    double c = event.temperature;
-    double f = (c * 9 / 5) + 32;
+  // Reading temperature or humidity takes about 250 milliseconds!
+  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
+  float h = dht.getHumidity();
+  float t = dht.getTempCelcius();   // Read temperature as Celsius
+  float f = dht.getTempFarenheit(); // Read temperature as Farenheit
 
-    // store the current temp in our global variable
-    temperature = f;
+  tempF = f;
+
+  // check if any reads failed and exit early (to try again).
+  if (isnan(h) || isnan(t) || isnan(f)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
   }
 
-  // get the next humidity measurement
-  dht.humidity().getEvent(&event);
-  if (!isnan(event.relative_humidity)) {
-    // optionally do something with event.relative_humidity...
-  }
+  // Compute heat index
+  float hi = dht.getHeatIndex();
+  float dp = dht.getDewPoint();
+  float k = dht.getTempKelvin();
 
-  // pause before taking the next reading
-  delay(500);
+  // log the readings to the console
+  Serial.print("Humid: ");
+  Serial.print(h);
+  Serial.print("% - ");
+  Serial.print("Temp: ");
+  Serial.print(t);
+  Serial.print("*C ");
+  Serial.print(f);
+  Serial.print("*F ");
+  Serial.print(k);
+  Serial.print("*K - ");
+  Serial.print("DewP: ");
+  Serial.print(dp);
+  Serial.print("*C - ");
+  Serial.print("HeatI: ");
+  Serial.print(hi);
+  Serial.println("*C");
+  Serial.println(Time.timeStr());
+
+  // combine the various numbers into a valid JSON string and publish it
+  Particle.publish("readings", String::format("{\"Hum(\%)\": %4.2f, \"Temp(°C)\": %4.2f, \"DP(°C)\": %4.2f, \"HI(°C)\": %4.2f}", h, t, dp, hi));
 }
