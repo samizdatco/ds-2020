@@ -13,6 +13,10 @@ Switching gears from previous assignments, we will be working with temperature/h
 
 ![](https://github.com/samizdatco/ds-2020/raw/master/assets/setup.jpg)
 
+Here’s a diagram of this setup, but with a **different microcontroller**. Note the pin *labels* rather than their positions and connect everything accordingly: 
+
+![](https://github.com/samizdatco/ds-2020/raw/master/assets/setup-diagram.jpg)
+
 # Assignment
 
 ### Part One
