@@ -196,11 +196,6 @@ IoT.
 
 > Spend the week ensuring that all of your AA data is in your SQL database, your NoSQL diary is functioning properly, and your sensor hardware is providing valid data at its API endpoint
 
-<!-- 
-#### Weekly Assignment 9, due Tuesday 11/3 at 6:00pm
-> You will begin writing sensor data to a database.
--->
-
 #### [Final Assignment 3](https://github.com/samizdatco/ds-2020/blob/master/final_assignment_3.md) distributed
 > Surveilling your life.
 
@@ -218,8 +213,13 @@ Debate: SQL vs. NoSQL
 
 From database to visual representation.  Interface design.
 
+#### [Weekly Assignment 9](https://github.com/samizdatco/ds-2020/tree/master/weekly_assignment_09), due Tuesday 11/10 at 6:00pm
+> You will begin writing sensor data to a database.
+
+<!-- 
 #### Weekly Assignment 10, due Tuesday 11/10 at 6:00pm
 > You will submit the final designs for the interfaces for each of your three data sources.
+-->
 
 #### Read for next week:
 
