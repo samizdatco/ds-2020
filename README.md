@@ -231,7 +231,7 @@ Serverless computing.
 #### Read for next week:
 
 * Klepmann, Chapter 1. Read from the beginning through the “Reliability” section.
-* [How the internet works](https://edri.org/wp-content/uploads/2013/10/paper03_web_20120123.pdf)
+* [How the internet works](https://edri.org/files/2012EDRiPapers/how_the_internet_works.pdf)
 
 ### November 18 (Week 12)
 
