@@ -225,7 +225,7 @@ From database to visual representation.  Interface design.
 
 Serverless computing.
 
-#### Weekly Assignment 10, due Tuesday 11/17 at 6:00pm
+#### [Weekly Assignment 10](https://github.com/samizdatco/ds-2020/blob/master/weekly_assignment_10.md), due Tuesday 11/17 at 6:00pm
 > You will submit the final designs for the interfaces for each of your three data sources.
 
 #### Read for next week:
