@@ -237,8 +237,8 @@ Serverless computing.
 
 Discussion: Reliability. Lab.
 
-#### Weekly Assignment 11, due Tuesday 12/1 at 6:00pm
-> You will migrate your work to a serverless computing environment.
+#### [Final App Demo](https://github.com/samizdatco/ds-2020/tree/master/final_app_demo), due Tuesday 12/1 at 6:00pm
+> You will build an app-server that provides the scaffolding for all three of your final projects
 >
 > * [What is Node.js and Express?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
 > * [Express](http://expressjs.com/)
