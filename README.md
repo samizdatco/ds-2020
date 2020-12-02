@@ -262,8 +262,8 @@ Discussion: Reliability. Lab.
 
 Discussion: Scalability. When do you need a database(s)? When do you not? Lab.
 
-#### Weekly Assignment 12, due Tuesday 12/8 at 6:00pm
-> You will create endpoints to connect your data to the design of your front-end interface.
+#### Final App (continued)
+> You will create endpoints to connect your data to the design of your front-end interface and use client-side javascript to read from them
 
 #### Read for next week:
 
